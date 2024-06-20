@@ -6,4 +6,4 @@ export default defineConfig({
   plugins: [react()],
 })
 
-// Vite Config
+// Vite Config js
