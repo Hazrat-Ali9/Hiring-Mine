@@ -7,3 +7,4 @@ export default function Banner() {
     </div>
   )
 }
+// Banner jsx
