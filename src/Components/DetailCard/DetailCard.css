@@ -1,0 +1,70 @@
+.DetailCard {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 25rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: scroll  !important;
+    height: 32rem;
+    /* border: 2px solid #5d49e1; */
+}
+
+.companyName {
+    color: #5d49e1;
+    font-size: 15px;
+}
+
+.locationDiv > h6 {
+    color: gray;
+    font-size: 14px !important; 
+}
+.viewsDiv > p {
+    color: gray;
+    font-size: 14px !important; 
+}
+
+/* job detail */
+#title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1rem !important;
+}
+
+.salary {
+    font-size: 17px !important;
+    font-weight: 600;
+}
+
+#jobTime {  
+    /* font-size: 15px; */
+    color:#5d49e1;
+}
+
+/* skills */
+
+#skills {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* description */
+#desc {
+    font-size: 18px;
+    font-weight: 600;
+}
+/* tags */
+#tags {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media (max-width: 576px) {
+    .DetailCard {
+        width: 100% !important;
+    }
+}

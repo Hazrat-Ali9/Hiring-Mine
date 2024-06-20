@@ -1,0 +1,62 @@
+.footerPara {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footerH6 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left !important;
+    width: 100%;
+}
+
+.footerEmail {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left !important;
+    width: 100%;
+}
+
+.endingLineDiv {
+    border-top: 1.5px solid white;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    .footerH6 {
+        text-align: center !important;
+    }
+
+    .footerEmail {
+        text-align: center !important;
+    }
+
+    .footerPara {
+        text-align: center;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    .footerLogoDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .endingLineDiv>p {
+        font-size: medium !important;
+    }
+
+
+}

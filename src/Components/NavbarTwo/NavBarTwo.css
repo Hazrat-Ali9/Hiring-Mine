@@ -1,0 +1,26 @@
+.searchBtn {
+    border: 0px;
+    border-radius: 0 5px 5px 0 !important;
+    background: white !important;
+}
+
+@media (max-width: 650px) {
+    .searchMain {
+        display: inline-block;
+        width: 100% !important;
+    }
+    .searchDiv {
+        width: 70% !important;
+    }
+    .findBtn2 {
+        width: 30% !important;
+        font-size: small;
+    }
+    .logo {
+        width: 100% !important;
+        display: flex;
+        justify-content: center !important;
+        margin: 0;
+        padding: 3px 0px !important;
+    }
+}

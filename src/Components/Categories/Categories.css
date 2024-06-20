@@ -1,0 +1,27 @@
+
+.categoriesSpan {
+    color: #9747ff !important;
+    font-weight: 600 !important;
+    font-size: 40px !important;
+    line-height: 61px !important;
+    letter-spacing: -0.02em !important;
+    background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+}
+.categoriesH1 {
+    width: 70%;
+    text-align: center !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 40px !important;
+    line-height: 61px !important;
+    letter-spacing: -0.02em !important;
+    color: #3f3f3f !important;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    
+}

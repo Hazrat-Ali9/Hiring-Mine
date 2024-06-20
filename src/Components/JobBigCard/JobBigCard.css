@@ -1,0 +1,45 @@
+.bigCard {
+    width: 100% !important;
+    height: min-content;
+    min-height: 25rem !important;
+    max-height: 27rem !important;
+    border-radius: 12px;
+    box-shadow: 0px 0px 6px 0px rgba(101,101,101,0.7);
+-webkit-box-shadow: 0px 0px 6px 0px rgba(101,101,101,0.7);
+-moz-box-shadow: 0px 0px 6px 0px rgba(101,101,101,0.7);
+}
+
+#salary {
+    color: #5d49e1;
+}
+
+#btn {
+    width: 4.5rem;
+    padding: 5px 10px;
+    padding-bottom: 7px;
+    border: none;
+    border-radius: 20px;
+    background-color: #5d49e1;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+}
+
+#btn:hover {
+    background-color: #3728b7;
+}
+
+#description {
+    height: max-content !important;  
+    min-height: 150px !important;
+    max-height: 150px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+#views {
+    color: grey !important;
+}
